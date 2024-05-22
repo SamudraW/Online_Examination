@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	background-position: center;
+	font-family: 'Poppins',sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background: #0496C7;
+}
+
+.box{
+	background: #fff;
+	width: 90%;
+	max-width: 600px;
+	margin: 100px auto 0;
+	border-radius: 10px;
+	padding: 30px;
+	
+}
+
+h1{
+	font-size: 25px;
+	color: #001e4d;
+	font-weight: 600;
+	border-bottom: 1px solid #333;
+	padding-bottom: 30px;
+}
+
+.box p{
+	margin:o;
+	padding: 0;
+	font-weight: bold;
+}
+
+.box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box input[type="text"]{
+	height: 40px;
+	font-size: 16px;
+}
+
+.box input[type="submit"]{
+	font-weight: 500;
+	width: 150px;
+	border: 0;
+	padding: 10px;
+	margin: 20px auto 0;
+	border-radius: 4px;
+	display: block;
+	background: #001e4d ;
+	color: #ffff;
+}
